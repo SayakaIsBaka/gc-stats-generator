@@ -1,0 +1,43 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/benkeen/d3pie@0.2.1/d3pie/d3pie.min.js"></script>
+<script src="results.js"></script>
+
+<div id="pieChart"></div>
+<script>
+    var pie = new d3pie("pieChart", {
+        "size": {
+            "canvasHeight": 850,
+            "canvasWidth": 1850,
+            "pieOuterRadius": "90%"
+        },
+        "data": {
+            "sortOrder": "value-desc",
+            "content": data
+        },
+        "labels": {
+            "outer": {
+                "pieDistance": 32
+            },
+            "inner": {
+                "hideWhenLessThanPercentage": 1
+            },
+            "mainLabel": {
+                "fontSize": 11
+            },
+            "percentage": {
+                "color": "#ffffff",
+                "decimalPlaces": 0
+            },
+            "value": {
+                "color": "#adadad",
+                "fontSize": 12
+            },
+            "lines": {
+                "enabled": true
+            },
+            "truncation": {
+                "enabled": true
+            }
+        },
+    });
+</script>

@@ -1,0 +1,97 @@
+[
+    {
+        "name": "commentsWithOsu",
+        "regex": ".*o[ ]*s[ ]*u.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithNewgrounds",
+        "regex": ".*newgrounds?.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithTimestamp",
+        "regex": ".*[0-9]:[0-9][0-9].*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithTrusta",
+        "regex": ".*trusta.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithSomebodyScream",
+        "regex": "(.*s[ ]*o[ ]*m[ ]*e[ ]*b[ ]*o.*)|(.*s[ ]*a[ ]*n.*)|(.*s?[ ]*c[ ]*r[ ]*(e[ ]*)+(a[ ]*)+(m[ ]*)+.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithGD",
+        "regex": "(.*gd.*)|(.*geometry.*)|(.*dash.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithWhenYou",
+        "regex": "^when you.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithRobeatsRoblox",
+        "regex": "(.*robeats?.*)|(.*roblox.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithNoctafly",
+        "regex": "(.*noctafly.*)|(.*noctalium.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithTouhou",
+        "regex": "(.*touhou.*)|(.*toho.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithBreak",
+        "regex": "(.*break.*)|(.*broken?.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithRhythm",
+        "regex": ".*rhythm.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithBeatSaber",
+        "regex": ".*saber.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithHeianAlien",
+        "regex": "(.*heian.*)|(.*alien.*)",
+        "count": 0
+    },
+    {
+        "name": "commentsWithLikeIf",
+        "regex": ".*like[ ]*if.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithSpeed",
+        "regex": ".*speed .*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithBPM",
+        "regex": ".*BPM.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithLove",
+        "regex": ".*love.*",
+        "count": 0
+    },
+    {
+        "name": "others",
+        "regex": ".*",
+        "count": 0
+    }
+]
