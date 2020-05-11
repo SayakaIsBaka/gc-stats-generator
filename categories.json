@@ -90,6 +90,16 @@
         "count": 0
     },
     {
+        "name": "commentsWithFinger",
+        "regex": ".*finger.*",
+        "count": 0
+    },
+    {
+        "name": "commentsWithKeyboard",
+        "regex": ".*finger.*",
+        "count": 0
+    },
+    {
         "name": "others",
         "regex": ".*",
         "count": 0
